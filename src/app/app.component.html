@@ -1,0 +1,21 @@
+<div class="container">
+  <!-- Kahvila-komponentin alku -->
+    <app-kahvila
+      (myyntiTapahtuma)="kahvinMyynti($event)"
+      (tarjoiluTapahtuma)="kahvinTarjoilu($event)"
+    >
+    </app-kahvila>
+    <!-- Kahvila-komponentin loppu -->
+    <hr>
+    <div class="row">
+      <div class="col-md-4">
+           <!-- Myynti-komponentin alku -->
+          <app-myynti class="card" 
+            *ngFor="let i of tarjoiluOhje"
+            [ohje]="i"
+          >
+          </app-myynti>
+           <!-- Myynti-komponentin loppu -->
+      </div>
+    </div>
+  </div>
