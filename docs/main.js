@@ -151,7 +151,7 @@ function AppComponent_app_myynti_5_Template(rf, ctx) { if (rf & 1) {
     _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](0, "app-myynti", 5);
 } if (rf & 2) {
     const i_r1 = ctx.$implicit;
-    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵproperty"]("ohje", i_r1);
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵproperty"]("tarjoilijalle", i_r1);
 } }
 class AppComponent {
     constructor() {
@@ -173,7 +173,7 @@ class AppComponent {
     }
 }
 AppComponent.ɵfac = function AppComponent_Factory(t) { return new (t || AppComponent)(); };
-AppComponent.ɵcmp = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdefineComponent"]({ type: AppComponent, selectors: [["app-root"]], decls: 6, vars: 1, consts: [[1, "container"], [3, "myyntiTapahtuma", "tarjoiluTapahtuma"], [1, "row"], [1, "col-md-4"], ["class", "card", 3, "ohje", 4, "ngFor", "ngForOf"], [1, "card", 3, "ohje"]], template: function AppComponent_Template(rf, ctx) { if (rf & 1) {
+AppComponent.ɵcmp = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdefineComponent"]({ type: AppComponent, selectors: [["app-root"]], decls: 6, vars: 1, consts: [[1, "container"], [3, "myyntiTapahtuma", "tarjoiluTapahtuma"], [1, "row"], [1, "col-md-4"], ["class", "card", 3, "tarjoilijalle", 4, "ngFor", "ngForOf"], [1, "card", 3, "tarjoilijalle"]], template: function AppComponent_Template(rf, ctx) { if (rf & 1) {
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](0, "div", 0);
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](1, "app-kahvila", 1);
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵlistener"]("myyntiTapahtuma", function AppComponent_Template_app_kahvila_myyntiTapahtuma_1_listener($event) { return ctx.kahvinMyynti($event); })("tarjoiluTapahtuma", function AppComponent_Template_app_kahvila_tarjoiluTapahtuma_1_listener($event) { return ctx.kahvinTarjoilu($event); });
@@ -339,7 +339,7 @@ MyyntiComponent.ɵcmp = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdefineCo
             }]
     }], function () { return []; }, { ohje: [{
             type: _angular_core__WEBPACK_IMPORTED_MODULE_0__["Input"],
-            args: ['tarjoilijalle']
+            args: ["tarjoilijalle"]
         }] }); })();
 
 
